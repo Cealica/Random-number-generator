@@ -20,4 +20,4 @@ echo Type yes to continue and no to exit or just enter any words or just enter c
 echo (just you know enter its case sensitive btw :) )
 SET /p ans= PLEASE ENTER NOW:
 if %ans% == yes (goto x) else (echo What the hell did you just type)
-if %ans% == no (exit 0) else (exit What the hell did you just type)
+if %ans% == no (exit 0) else (echo What the hell did you just type)
