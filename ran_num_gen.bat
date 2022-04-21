@@ -16,7 +16,7 @@ SET /a rand=%RANDOM% * 100 / 32768 + 1
 echo The lucky number is %rand%
 echo ----------------------------------------
 echo do you want to continue?
-echo Type yes to continue and no to exit. 
+echo Type yes to continue and no to exit or just enter any words or just enter cause...its easier? its a feature not a bug!. 
 echo (just you know enter its case sensitive btw :) )
 SET /p ans= PLEASE ENTER NOW:
 if %ans% == yes (goto x) else (echo What the hell did you just type)
